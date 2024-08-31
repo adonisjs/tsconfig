@@ -1,0 +1,62 @@
+{
+  "name": "@adonisjs/tsconfig",
+  "description": "Base TypeScript configuration files for AdonisJS applications and packages",
+  "version": "1.3.0",
+  "exports": {
+    "./tsconfig.app.json": "./tsconfig.app.json",
+    "./tsconfig.client.json": "./tsconfig.client.json",
+    "./tsconfig.package.json": "./tsconfig.package.json"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^8.0.1",
+    "release-it": "^17.6.0"
+  },
+  "homepage": "https://github.com/adonisjs/tsconfig#readme",
+  "bugs": {
+    "url": "https://github.com/adonisjs/tsconfig/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adonisjs/tsconfig.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "adonisjs"
+  ],
+  "author": "Julien Ripouteau",
+  "contributors": [
+    "Harminder Virk <virk@adonisjs.com>"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "provenance": true
+  },
+  "release-it": {
+    "git": {
+      "requireCleanWorkingDir": true,
+      "requireUpstream": true,
+      "commitMessage": "chore(release): ${version}",
+      "tagAnnotation": "v${version}",
+      "push": true,
+      "tagName": "v${version}"
+    },
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": true,
+      "skipChecks": true
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": {
+          "name": "angular"
+        }
+      }
+    }
+  }
+}
