@@ -17,8 +17,8 @@
     "release": "release-it"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "^8.0.1",
-    "release-it": "^17.6.0"
+    "@release-it/conventional-changelog": "^10.0.1",
+    "release-it": "^19.0.2"
   },
   "homepage": "https://github.com/adonisjs/tsconfig#readme",
   "bugs": {
