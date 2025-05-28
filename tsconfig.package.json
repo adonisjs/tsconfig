@@ -3,6 +3,7 @@
   "compilerOptions": {
     "declaration": true,
     "removeComments": false,
+    "rewriteRelativeImportExtensions": true,
     "types": ["@types/node"]
   }
 }

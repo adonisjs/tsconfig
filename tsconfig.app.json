@@ -3,6 +3,8 @@
   "compilerOptions": {
     "declaration": false,
     "sourceMap": true,
+    "rewriteRelativeImportExtensions": true,
+    "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "types": ["@types/node"]
   }
