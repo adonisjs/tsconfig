@@ -7,5 +7,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "types": ["@types/node"]
-  }
+  },
+  "include": ["**/*", "./.adonisjs/server/**/*"],
+  "exclude": ["inertia", "node_modules", "build", "bower_components", "jspm_packages"]
 }
