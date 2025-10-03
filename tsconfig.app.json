@@ -8,6 +8,6 @@
     "emitDecoratorMetadata": true,
     "types": ["@types/node"]
   },
-  "include": ["**/*", "./.adonisjs/server/**/*"],
-  "exclude": ["inertia", "node_modules", "build", "bower_components", "jspm_packages"]
+  "include": ["${configDir}/**/*", "${configDir}./.adonisjs/server/**/*"],
+  "exclude": ["${configDir}/inertia", "${configDir}/node_modules", "${configDir}/build", "${configDir}/bower_components", "${configDir}/jspm_packages"]
 }
