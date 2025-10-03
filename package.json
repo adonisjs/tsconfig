@@ -1,7 +1,7 @@
 {
   "name": "@adonisjs/tsconfig",
   "description": "Base TypeScript configuration files for AdonisJS applications and packages",
-  "version": "2.0.0-next.1",
+  "version": "2.0.0-next.2",
   "files": [
     "tsconfig.app.json",
     "tsconfig.client.json",
