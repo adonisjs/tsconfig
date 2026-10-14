@@ -10,7 +10,7 @@
   },
   "include": [
     "${configDir}/**/*",
-    "${configDir}./.adonisjs/server/**/*"
+    "${configDir}/.adonisjs/server/**/*"
   ],
   "exclude": [
     "${configDir}/inertia/**",
